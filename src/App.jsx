@@ -9,7 +9,7 @@ function App() {
     bio: "Learning software development with focus on fullstack, games, and mobile apps. Turning ideas into code and creating practical solutions.",
     email: "adamwellsbelialfuneral@gmail.com",
     github: "https://github.com/AdamWellsBelialFuneral",
-    linkedin: "https://www.linkedin.com/in/adamwells-%E2%80%8E-04b6bb29b/",
+    linkedin: "https://www.linkedin.com/in/adamwellsbelialfuneral/",
     avatar: "/images/profile picture.jpg"
   });
 
