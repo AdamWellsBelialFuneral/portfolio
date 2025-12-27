@@ -20,7 +20,6 @@ function App() {
       status: "in-development",
       tech: ["Godot", "Blender", "GDscript", "Cross-platform"],
       link: "https://www.youtube.com/watch?v=A4HxES6cCQA",
-      //video: "https://www.youtube.com/watch?v=A4HxES6cCQA"
       video: "/videos/rain-castle.mp4"
     },
 
@@ -105,6 +104,17 @@ function App() {
         <div className="projects-grid">
   {projects.map((project, index) => (
     <div key={index} className={`project-card ${project.status}`}>
+      {/*
+
+      {project.video && (
+        <div className="video-window">
+          <iframe width= "100%" className= "project-video"
+            src={`https://www.youtube.com/embed/${project.link.split('v=')[1]}?autoplay=1&mute=1&controls=0&showinfo=0&rel=0&modestbranding=1`}
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; autoplay"
+          />
+        </div>
+      )}
+      */}
       
       {project.video && (
         <div className="video-window">

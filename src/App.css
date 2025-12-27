@@ -273,12 +273,21 @@ body {
   justify-content: center;
 }
 
-.video-window video {
+.video-window  iframe {
   min-width: 100%;
   min-height: 100%;
   border: none;
   pointer-events: none;
   filter: brightness(1.0);
+}
+
+.project-video {
+  min-width: 100%;
+  min-height: 100%;
+  border: none;
+  pointer-events: none;
+  filter: brightness(1.0);
+  object-fit: cover; /* Esta linha é a mágica */
 }
 
 /* CONTEÚDO SOBRE O VÍDEO */
